@@ -1,0 +1,9 @@
+.or{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+.google-btn img{
+    margin-left: -12px;
+    cursor: pointer;
+}

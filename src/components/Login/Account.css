@@ -1,0 +1,38 @@
+account-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-wraper{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.page-title h3{
+    margin: 15px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .1em;
+    color: #1a1a1a;
+    line-height: 1.1;
+}
+.form-wrape{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+}
+.form-submit-btn{
+    border: none;
+    background-color: #CBC2B9;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:688px) {
+    .form-wrape{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
